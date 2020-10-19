@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>paper SQA</title>
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <section class="banner" id="sec">
+                <header>
+                    <a href="#" class="logo">PAPER <span>SQA</span></a>
+                    <div id="toggle" onclick="toggle()"></div>
+                </header>
+                    <div class="content">
+                        <h2>Hasil Analisa SQA <br><span>GRAB dan GOJEK</span></h2>
+                        <pre>
+                            <strong>
+                            Nama : Albari Berki Pradhana
+                            NIM : 1806384
+                            Software update : 13 oktober 2020
+                            </strong>
+
+                            Pada analisis SQA ini akan saya paparkan hasil analisa saya terhadap 2 software
+                            yang memiliki fungsi maupun cara penggunaan yang serupa.
+                            software tersebut yaitu <strong>Grab</strong> dan <strong>Gojek</strong>.
+                            Metode analisis yang saya gunakan mengacu pada faktor <strong>McCall</strong>.
+
+                                Perangkat yang saya gunakan pada penelitian ini yaitu :
+                                        <img src="./i.png" alt="">
+                                                <pre>
+                                                            Saya menggunakan kedua perangkat diatas mengingat bahwa
+                                                            platform <strong>ANDROID</strong> dan <strong>IOS</strong> merupakan 2 sistem operasi
+                                                            yang umum digunakan oleh masyarakat di Indonesia.
+                                                </pre>
+
+                                Berikut sekilas pengenalan dari kedua software :
+                                                    <img src="./h.jpg" alt="">
+                                <img src="./j.png" alt="">
+
+                                Adapun faktor McCall yang saya gunakan sebagai pembanding
+                                adalah sebagai berikut :
+                                                    <img src="./a.png" alt="">
+
+                                Berikut adalah hasil analisa faktor <strong>Efficiency</strong> :
+
+                                                    <img src="./b.png" alt="">
+                                                <pre>
+                                                            Pada faktor ini, saya membandingkan efisiensi eksekusi
+                                                            dimana yang saya bandingkan yaitu kecepatan loading screen 
+                                                            hingga mencapai bagian landing awal dari software(login/register).
+                                                            saya pun membandingkan efisiensi storage dengan memperhatikan
+                                                            penggunaan memory sebelum penggunaan.
+                                                </pre>
+                                <img src="./k.png" alt="">
+                                                <pre>
+                                                            Terlihat bahwa pada kedua sistem operasi, penggunaan storage dari
+                                                            <strong>GOJEK</strong> lebih efisien.
+
+                                                            Namun, dengan penggunaan storage yang lebih besar, 
+                                                            waktu eksekusi menunjukan bahwa <strong>GRAB</strong> lebih cepat 4 detik dalam
+                                                            pengaksesan hingga masuk ke bagian login/register.
+                                                </pre>
+
+                                Berikut adalah hasil analisa faktor <strong>Correctness</strong> :
+
+                                                    <img src="./c.png" alt="">
+                                                <pre>
+                                                            Pada faktor ini, saya membandingkan selisih waktu update,
+                                                            kelengkapan data penjual, dan kebenaran output posisi pengemudi.
+                                                </pre>
+                                <img src="./l.png" alt="">
+                                                <pre>
+                                                            Pada bagian update history dari kedua software dapat terlihat
+                                                            bahwa masing- masing memiliki selisih update yang berbeda.
+
+                                                            Adapun kelengkapan penjual dari kedua software masih memiliki
+                                                            1 kekurangan yaitu nomor kontak dari toko/seller/penjual.
+                                                            Hal ini akan mempersulit proses komplain bagi pembeli ke penjual.
+                                                            Namun saya berasumsi bahwa hal ini dilakukan untuk menjaga proses
+                                                            transaksi agar tetap sesuai aturan dengan langsung mengarahkan
+                                                            pembeli ke nomor call center dari kedua software.
+
+                                                            Output posisi yang ditampilkan oleh kedua software tidak jauh berbeda
+                                                            meskipun dalam proses pengujiannya, <strong>GRAB</strong> memberikan output
+                                                            yang lebih baik.
+                                                </pre>
+                                Berikut adalah hasil analisa faktor <strong>Flexibility</strong> :
+
+                                                    <img src="./d.png" alt="">
+                                                <pre>
+                                                            Pada faktor ini, saya membandingkan generality dari sisi
+                                                            tampilan keseluruhan dimana kedua software menghadirkan
+                                                            tampilan yang cocok untuk semua usia. 
+
+                                                            Perbandingan kedua software dari sisi expansibility pada bagian
+                                                            penambahan detail order pembeli pun sudah baik.
+                                                </pre>
+                                
+                                Berikut adalah hasil analisa faktor <strong>Interoperability</strong> :
+
+                                                    <img src="./f.png" alt="">
+                                                <pre>
+                                                            Pada faktor ini, saya membandingkan modularity kedua software
+                                                            yang sangat disayangkan pada <strong>GOJEK</strong>, tampaknya
+                                                            fitur multiple register option sudah dihilangkan. Di sisi lain, 
+                                                            <strong>GRAB</strong> masih menghadirkan fitur tersebut dengan adanya fiturregister with FACEBOOK.
+
+                                                            Perbandingan selanjutnya adalah kesamaan data setelah logout
+                                                            yang tidak menunjukan perubahan apapun di kedua software.
+                                                </pre>
+                                                    
+                                Berikut adalah hasil analisa faktor <strong>Reliability</strong> :
+
+                                                    <img src="./g.png" alt="">
+                                                <pre>
+                                                            Pada faktor ini, saya membandingkan sub faktor dengan
+                                                            bobot tertinggi yaitu akurasi auto translate message
+                                                            yang digunakan oleh kedua software. pada hal ini perlu
+                                                            diingat bahwa komunikasi merupakan hal yang saya anggap
+                                                            paling penting dalam penyampaian pesanan baik terhadap toko
+                                                            maupun pengemudi yang akan mengantar pesanan.
+                                                            dan fitur yang digunakan pada kedua software masih kurang membantu
+                                                            dalam komunikasi tersebut. Namun hal ini dapat menjadi tantangan 
+                                                            dari sisi pengembangan software untuk membuat API auto translate
+                                                            yang lebih akurat dan sesuai dengan pengguna di Indonesia.
+
+                                                            Pinpoint dari rumah pembeli yang belum cukup mendekati alamat
+                                                            asli pembeli dari kedua software dapat teratasi dengan
+                                                            fitur penulisan alamat secara manual, dan fitur ini sudah dimiliki
+                                                            oleh kedua software sehingga saya memberikan nilai yang baik bagi
+                                                            kedua software.
+
+                                                            toleransi kesalahan masukan kode OTP pada kedua software sudah baik
+                                                            dan tidak menjadi suatu masalah yang dapat mengganggu pengalaman
+                                                            penggunaan software masing-masing.
+                                                </pre>
+
+                                Berikut adalah keismpulan dari hasil analisa saya :
+
+                                                    <img src="./h.png" alt="">
+                                                <pre>
+                                                            Dari hasil analisa secara keseluruhan, <strong>GRAB</strong> terlihat lebih unggul.
+                                                            Namun, dapat terlihat pada bagbian faktor Reliability, <strong>GOJEK</strong> lebih unggul.
+                                                            Sehingga dengan ini saya dapat menarik kesimpulan bahwa kedua aplikasi
+                                                            masih memiliki ruang untuk meningkatkan keunggulannya masing-masing.
+                                                            Tidak dapat dipungkiri pula, bahwa penilaian ini bersifat subjektif,
+                                                            sehingga di masa yang akan datang sangat besar kemungkinan adanya
+                                                            perbedaan pendapat dan tentu saja persentase diatas suatu saat pasti
+                                                            akan ada perubahan yang akan saya analisa kembali di masa yang akan datang.
+                                                </pre>
+
+
+                            <strong>
+                            Referensi:
+                            Daniel Galin, “Software Quality Assurance, From Theory to Implementation”.
+                            https://romisatriawahono.net/2006/06/05/teknik-pengukuran-kualitas-perangkat-lunak/</strong>
+                        </pre>
+                     
+                    </div>
+            </section>
+            <div id="navigation">
+                <ul>
+                    <li><a href="#"><span>home</span></a></li>
+                    <li><a href="#">latest update</a></li>
+
+                </ul>
+            </div>
+            <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active');
+                nav.classList.toggle('active');
+            }
+            </script>
+        </body>
+    </head>
+</html>
